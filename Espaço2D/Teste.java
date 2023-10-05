@@ -17,12 +17,13 @@ public class Teste {
 
             System.out.println("Digite o valor de y do ponto: " + (i + 1));
             double py = entrada.nextDouble();
-            
+
             pontos[i] = new Ponto2D(px, py);
 
         }
         Espaco2D espaco = new Espaco2D();
-        espaco.criaForma(pontos);
+
+        espaco.adicionaForma(espaco.criaForma(pontos));
 
         System.out.println("\n" + "area " + espaco.areaTotal());
         System.out.println("perimetro " + espaco.perimetroTotal());
