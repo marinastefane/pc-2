@@ -68,12 +68,14 @@ public abstract class Forma {
         }
         // quadrado
         if (pontos != null) {
-            double d1 = pontos[0].calculaDistancia(pontos[1]);
-            double d2 = pontos[1].calculaDistancia(pontos[2]);
-            double d3 = pontos[2].calculaDistancia(pontos[3]);
-            double d4 = pontos[3].calculaDistancia(pontos[0]);
-            if (d1 == d2 && d2 == d3 && d3 == d4) {
-                retorno = new Quadrado(pontos);
+            if (contaPosicoes(pontos) == 4) {
+                double d1 = pontos[0].calculaDistancia(pontos[1]);
+                double d2 = pontos[1].calculaDistancia(pontos[2]);
+                double d3 = pontos[2].calculaDistancia(pontos[3]);
+                double d4 = pontos[3].calculaDistancia(pontos[0]);
+                if (d1 == d2 && d2 == d3 && d3 == d4) {
+                    retorno = new Quadrado(pontos);
+                }
             }
         }
         return retorno;
