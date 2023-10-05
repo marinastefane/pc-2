@@ -18,8 +18,8 @@ public class Circulo extends Forma {
     public double calculaPerimetro() {
         double raio = pontos[0].calculaDistancia(pontos[1]);
 
-        double perimetroQuadrado = 2 * Math.PI * raio;
+        double perimetroCirculo = 2 * Math.PI * raio;
 
-        return perimetroQuadrado;
+        return perimetroCirculo;
     }
 }
