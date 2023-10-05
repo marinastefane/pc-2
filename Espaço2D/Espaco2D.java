@@ -32,13 +32,9 @@ public class Espaco2D {
     public double areaTotal() {
         double total = 0;
         for (Forma areaForma : formas) {
-            if (areaForma instanceof Quadrado quadrado) {
-                total = total + quadrado.calculaArea();
-            } else if (areaForma instanceof Circulo circulo) {
-                total = total + circulo.calculaArea();
-            } else if (areaForma instanceof Triangulo triangulo) {
-                total = total + triangulo.calculaArea();
-            }
+
+            total = total + areaForma.calculaArea();
+
         }
         return total;
     }
@@ -46,13 +42,9 @@ public class Espaco2D {
     public double perimetroTotal() {
         double ptotal = 0;
         for (Forma periForma : formas) {
-            if (periForma instanceof Quadrado quadrado) {
-                ptotal = ptotal + quadrado.calculaPerimetro();
-            } else if (periForma instanceof Circulo circulo) {
-                ptotal = ptotal + circulo.calculaPerimetro();
-            } else if (periForma instanceof Triangulo triangulo) {
-                ptotal = ptotal + triangulo.calculaPerimetro();
-            }
+
+            ptotal = ptotal + periForma.calculaPerimetro();
+
         }
         return ptotal;
     }
