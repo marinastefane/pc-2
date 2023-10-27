@@ -8,7 +8,7 @@ public class Teste {
         
 
         Modalidade aerobica = new Modalidade("Aerobica", "SEG", "14:00");
-        Modalidade zumba = new Modalidade("Zumba", "TER", "15.00");
+        Modalidade zumba = new Modalidade("Zumba", "TER", "15:00");
         
         Turma turma1 = new Turma("Larissa Manoela", 3, 3, null, zumba);
         
