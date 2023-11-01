@@ -8,6 +8,9 @@ import java.util.Scanner;
 
 public class ManArqTexto {
 
+    public ManArqTexto(String string) {
+    }
+
     public static ArrayList<String> abreLerFecha(String nomeArquivo) {
         ArrayList<String> retorno = new ArrayList<>();
         try {
