@@ -5,6 +5,11 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ *
+ * @author Marina
+ */
+
 public class TextFileApps {
 
     public TextFileApps() {
