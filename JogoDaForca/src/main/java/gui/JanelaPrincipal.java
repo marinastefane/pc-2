@@ -5,6 +5,11 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
+/**
+ *
+ * @author Marina
+ */
+
 public class JanelaPrincipal extends javax.swing.JFrame {
 
     public JanelaPrincipal() {
