@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Random;
 import servicos.TextFileApps;
 
+/**
+ *
+ * @author Marina
+ */
+
 public class JogoDaForca {
 
     private ArrayList<String> palavrasDoJogo;
