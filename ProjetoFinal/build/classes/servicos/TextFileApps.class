@@ -1,0 +1,23 @@
+Êþº¾   > D
+       java/lang/Object <init> ()V   java/util/ArrayList
+     
+ java/util/Scanner  
+ java/lang/String
+       java/nio/file/Paths get ;(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+ 
+    (Ljava/nio/file/Path;)V
+ 
+     hasNext ()Z
+ 
+    next ()Ljava/lang/String;
+     ! " add (Ljava/lang/Object;)Z
+ 
+ $ %  close  ' java/io/IOException
+ & ) *  printStackTrace  , servicos/TextFileApps Code LineNumberTable LocalVariableTable this Lservicos/TextFileApps; 
+lerArquivo )(Ljava/lang/String;)Ljava/util/ArrayList; leitor Ljava/util/Scanner; ex Ljava/io/IOException; 
+nomeArquivo Ljava/lang/String;  retorno Ljava/util/ArrayList; LocalVariableTypeTable )Ljava/util/ArrayList<Ljava/lang/String;>; 
+StackMapTable MethodParameters 	Signature =(Ljava/lang/String;)Ljava/util/ArrayList<Ljava/lang/String;>; 
+SourceFile TextFileApps.java ! +           -   3     *· ±    .   
+       /        0 1   	 2 3  -   Þ     9»  Y· 	L» 
+Y*½ ¸ · M,¶ ™ +,¶ ¶ W§ÿð,¶ #§ M,¶ (+°   / 2 &  .   & 	        !  " + $ / ' 2 % 3 & 7 ( /   *    4 5  3  6 7    9 8 9    1 : ;  <      1 : =  >    ý      
+ÿ          & ?    8   @    A  B    C
