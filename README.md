@@ -1,1 +1,2 @@
-Repositório criado para armazenar atividades e trabalhos da disciplina "Programação Orientada á Objetos" no 3° semestre - CEFET-MG!
+# ☕ POO - ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINISHED&color=CDB38B&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/marinastefane/prog-2?style=for-the-badge&logoColor=CDB38B&color=CDB38B) ![GitHub top language](https://img.shields.io/github/languages/top/marinastefane/prog-2?style=for-the-badge&color=CDB38B)
+Repositório criado para armazenar exercicios e trabalhos da disciplina "Algoritimos e Estruturas de Dados" do 4° semestre - CEFET-MG!
